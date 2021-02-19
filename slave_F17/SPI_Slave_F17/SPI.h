@@ -15,7 +15,6 @@
 #include "DIO.h"
 #include "ADC.h"
 #include "Motor_PWM.h"
-#include "servo.h"
 
 
 #define SPI_DataDirReg DDRB
