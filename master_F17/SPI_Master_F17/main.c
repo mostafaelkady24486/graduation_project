@@ -87,19 +87,6 @@ int main(void)
 
 }
 
-/*
-if(Uart_RxChar() == '+'){
-SPI_Tx('+');
-_delay_ms(100);
-LCD_Clear();
-Uint8 rec2 = SPI_Rx();
-itoa(rec2,Del,10);
-LCD_Cmd(0xC0);
-LCD_String(Del);
-}
-*/
-
-
 
 
 
